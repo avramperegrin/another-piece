@@ -1,0 +1,85 @@
+
+<div class="recipes-filter">
+  <form class="recipes-filter__form">
+    <fieldset class="recipes-filter__fieldset">
+      <legend class="recipes-filter__legend">Прием пищи</legend>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="eatingBreakfast" type="checkbox" name="eatingBreakfast"/>
+        <label class="recipes-filter__label" for="eatingBreakfast">Завтрак</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="eatingLunch" type="checkbox" name="eatingLunch" checked=""/>
+        <label class="recipes-filter__label" for="eatingLunch">Обед</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="eatingDinner" type="checkbox" name="eatingDinner"/>
+        <label class="recipes-filter__label" for="eatingDinner">Ужин</label>
+      </div>
+    </fieldset>
+    <fieldset class="recipes-filter__fieldset">
+      <legend class="recipes-filter__legend">Количество ингредиентов</legend>
+      <div class="recipes-filter__inner">
+        <div class="recipes-filter__box"></div>
+        <div class="recipes-filter__box recipes-filter__box--input">
+          <input class="recipes-filter__input" id="countFrom" type="text" name="countFrom" value="от 1"/>
+          <label class="recipes-filter__label visually-hidden" for="countFrom">от 1</label>
+        </div><span class="recipes-filter__line">—</span>
+        <div class="recipes-filter__box"></div>
+        <div class="recipes-filter__box recipes-filter__box--input">
+          <input class="recipes-filter__input" id="countBefore" type="text" name="countBefore" value="до 21"/>
+          <label class="recipes-filter__label visually-hidden" for="countFrom">до 21</label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="recipes-filter__fieldset">
+      <legend class="recipes-filter__legend">Кухня</legend>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__radio" id="kitchenAsian" type="radio" name="kitchen" value="kitchenAsian"/>
+        <label class="recipes-filter__label" for="kitchenAsian">Азиатская</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__radio" id="kitchenRussian" type="radio" name="kitchen" value="kitchenRussian" checked=""/>
+        <label class="recipes-filter__label" for="kitchenRussian">Русская</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__radio" id="kitchenGeorgian" type="radio" name="kitchen" value="kitchenGeorgian"/>
+        <label class="recipes-filter__label" for="kitchenGeorgian">Грузинская</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__radio" id="kitchenItalian" type="radio" name="kitchen" value="kitchenItalian"/>
+        <label class="recipes-filter__label" for="kitchenItalian">Итальянская</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__radio" id="kitchenAmerican" type="radio" name="kitchen" value="kitchenAmerican"/>
+        <label class="recipes-filter__label" for="kitchenAmerican">Американская</label>
+      </div>
+    </fieldset>
+    <fieldset class="recipes-filter__fieldset">
+      <legend class="recipes-filter__legend">Вид блюда</legend>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="typeSoups" type="checkbox" name="typeSoups"/>
+        <label class="recipes-filter__label" for="typeSoups">Супы</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="typeDishes" type="checkbox" name="typeDishes"/>
+        <label class="recipes-filter__label" for="typeDishes">Основные блюда</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="typeSalads" type="checkbox" name="typeSalads" checked=""/>
+        <label class="recipes-filter__label" for="typeSalads">Салаты</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="typeDesserts" type="checkbox" name="typeDesserts"/>
+        <label class="recipes-filter__label" for="typeDesserts">Десерты</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="typeSnack" type="checkbox" name="typeSnack" checked=""/>
+        <label class="recipes-filter__label" for="typeSnack">Перекус</label>
+      </div>
+      <div class="recipes-filter__box">
+        <input class="recipes-filter__checkbox" id="typeHoliday" type="checkbox" name="typeHoliday"/>
+        <label class="recipes-filter__label" for="typeHoliday">На праздник</label>
+      </div>
+    </fieldset>
+  </form>
+</div>

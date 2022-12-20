@@ -1,0 +1,62 @@
+.recipes-filter
+	form.recipes-filter__form
+		fieldset.recipes-filter__fieldset
+			legend.recipes-filter__legend Прием пищи
+			.recipes-filter__box
+				input#eatingBreakfast.recipes-filter__checkbox(type='checkbox' name='eatingBreakfast')
+				label.recipes-filter__label(for='eatingBreakfast') Завтрак
+			.recipes-filter__box
+				input#eatingLunch.recipes-filter__checkbox(type='checkbox' name='eatingLunch' checked='')
+				label.recipes-filter__label(for='eatingLunch') Обед
+			.recipes-filter__box
+				input#eatingDinner.recipes-filter__checkbox(type='checkbox' name='eatingDinner')
+				label.recipes-filter__label(for='eatingDinner') Ужин
+		fieldset.recipes-filter__fieldset
+			legend.recipes-filter__legend Количество ингредиентов
+			.recipes-filter__inner
+				.recipes-filter__box
+				.recipes-filter__box.recipes-filter__box--input
+					input#countFrom.recipes-filter__input(type='text' name='countFrom' value='от 1')
+					label.recipes-filter__label.visually-hidden(for='countFrom') от 1
+				span.recipes-filter__line —
+				.recipes-filter__box
+				.recipes-filter__box.recipes-filter__box--input
+					input#countBefore.recipes-filter__input(type='text' name='countBefore' value='до 21')
+					label.recipes-filter__label.visually-hidden(for='countFrom') до 21
+		fieldset.recipes-filter__fieldset
+			legend.recipes-filter__legend Кухня
+			.recipes-filter__box
+				input#kitchenAsian.recipes-filter__radio(type='radio' name='kitchen' value='kitchenAsian')
+				label.recipes-filter__label(for='kitchenAsian') Азиатская
+			.recipes-filter__box
+				input#kitchenRussian.recipes-filter__radio(type='radio' name='kitchen' value='kitchenRussian' checked='')
+				label.recipes-filter__label(for='kitchenRussian') Русская
+			.recipes-filter__box
+				input#kitchenGeorgian.recipes-filter__radio(type='radio' name='kitchen' value='kitchenGeorgian')
+				label.recipes-filter__label(for='kitchenGeorgian') Грузинская
+			.recipes-filter__box
+				input#kitchenItalian.recipes-filter__radio(type='radio' name='kitchen' value='kitchenItalian')
+				label.recipes-filter__label(for='kitchenItalian') Итальянская
+			.recipes-filter__box
+				input#kitchenAmerican.recipes-filter__radio(type='radio' name='kitchen' value='kitchenAmerican')
+				label.recipes-filter__label(for='kitchenAmerican') Американская
+		fieldset.recipes-filter__fieldset
+			legend.recipes-filter__legend Вид блюда
+			.recipes-filter__box
+				input#typeSoups.recipes-filter__checkbox(type='checkbox' name='typeSoups')
+				label.recipes-filter__label(for='typeSoups') Супы
+			.recipes-filter__box
+				input#typeDishes.recipes-filter__checkbox(type='checkbox' name='typeDishes')
+				label.recipes-filter__label(for='typeDishes') Основные блюда
+			.recipes-filter__box
+				input#typeSalads.recipes-filter__checkbox(type='checkbox' name='typeSalads' checked='')
+				label.recipes-filter__label(for='typeSalads') Салаты
+			.recipes-filter__box
+				input#typeDesserts.recipes-filter__checkbox(type='checkbox' name='typeDesserts')
+				label.recipes-filter__label(for='typeDesserts') Десерты
+			.recipes-filter__box
+				input#typeSnack.recipes-filter__checkbox(type='checkbox' name='typeSnack' checked='')
+				label.recipes-filter__label(for='typeSnack') Перекус
+			.recipes-filter__box
+				input#typeHoliday.recipes-filter__checkbox(type='checkbox' name='typeHoliday')
+				label.recipes-filter__label(for='typeHoliday') На праздник

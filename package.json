@@ -1,7 +1,7 @@
 {
   "name": "another-piece",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "Тренировочный проект от HTML Academy",
   "scripts": {
     "start": "concurrently \"yarn run sync\" \"yarn run pug\"",
     "pug": "pug ./static/pug/ --pretty -w -o ./",
